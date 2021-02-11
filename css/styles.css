@@ -70,10 +70,8 @@ p {
 
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
+#title{
+  text-align: center;
 }
 
 #title .container-fluid {
@@ -166,7 +164,7 @@ p {
   margin: 20px 10px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1028px) {
 
   #title {
     text-align: center;
@@ -176,5 +174,13 @@ p {
     position: static;
     transform: rotate(0);
     width: 70%;
+    text-align: center;
+  }
+
+  #title .container-fluid {
+    text-align: center;
+  }
+  .nav-link{
+    text-align: center;
   }
 }
